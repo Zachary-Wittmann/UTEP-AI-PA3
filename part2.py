@@ -133,13 +133,13 @@ while True:
             values[s] = best_value
             max_change = max(max_change, abs(best_value - old_value))
             actions_prefered[s] = actions[index]
-            # # Additional detailed update information
-            # print(f"Updating state {s}:")
-            # print(f"Previous Value: {old_value}")
-            # print(f"New Values: {new_values}")
-            # print(f"Selected Action: {actions[index]}")
-            # print(f"New Value: {best_value}")
-            # print()
+            # Additional detailed update information
+            print(f"Updating state {s}:")
+            print(f"Previous Value: {old_value}")
+            print(f"New Values: {new_values}")
+            print(f"Selected Action: {actions[index]}")
+            print(f"New Value: {best_value}")
+            print()
 
     iteration += 1
     if max_change < threshold:

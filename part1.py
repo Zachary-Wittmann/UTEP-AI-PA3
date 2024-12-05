@@ -166,4 +166,4 @@ for episode_idx in range(num_episodes):
 
 print("\nAverage reward for each episode:")
 for i, avg in enumerate(average_rewards):
-    print(f"Episode{i+1}: {avg}")
+    print(f"Episode {i+1}: {avg}")
